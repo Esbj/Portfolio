@@ -1,10 +1,11 @@
-import './App.css'
+import Navigation from "./components/Navigation"
 
 function App() {
 
   return (
     <main>
-      <button className='btn btn-primary'>this is a button</button>
+      <Navigation />
+
     </main>
   )
 }
