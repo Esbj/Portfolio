@@ -1,5 +1,5 @@
+/* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
-
 
 export default {
   content: [
@@ -9,6 +9,9 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [require('@tailwindcss/typography'), require("daisyui")],
+  plugins: [
+    require('@tailwindcss/typography'),
+    require("daisyui")
+  ],
   daisyui: { themes: ['cupcake', 'forest'] }
 }
