@@ -4,10 +4,12 @@ import Start from "./components/Start"
 function App() {
 
   return (
-    <main className="container">
+    <>
       <Navigation />
-      <Start />
-    </main>
+      <main className="container mx-auto">
+        <Start />
+      </main>
+    </>
   )
 }
 
