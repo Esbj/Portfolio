@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Navigation />
-      <main className="container mx-auto">
+      <main className="container mx-auto w-2/3">
         <Start />
         <Divider />
         <Technologies />
